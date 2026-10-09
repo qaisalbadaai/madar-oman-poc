@@ -1,0 +1,24 @@
+{
+  "area": "Al Khaburah \u2014 town and coastal plain",
+  "event_date": "2021-10-03",
+  "sensor": "Sentinel-1 RTC VV",
+  "geometry": "descending_93",
+  "resolution_m": 20.0,
+  "water_threshold_db": -16.0,
+  "peak_pass": "2021-10-11",
+  "new_water_km2": 0.8776,
+  "ordinary_day_km2": 0.4052,
+  "above_noise": true,
+  "passes": [
+    {
+      "date": "2021-10-11",
+      "flood_mask_km2": 0.884,
+      "new_water_km2": 0.8776
+    },
+    {
+      "date": "2021-10-23",
+      "flood_mask_km2": 0.6484,
+      "new_water_km2": 0.636
+    }
+  ]
+}

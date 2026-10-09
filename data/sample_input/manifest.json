@@ -1,0 +1,97 @@
+{
+  "crs": "EPSG:32640",
+  "resolution_m": 20.0,
+  "bbox_wgs84": [
+    56.98,
+    23.86,
+    57.16,
+    24.06
+  ],
+  "geometry": "descending_93",
+  "event_date": "2021-10-03",
+  "encoding": "VV gamma0 in dB x 100, int16",
+  "source": "Sentinel-1 RTC, Microsoft Planetary Computer (collection sentinel-1-rtc)",
+  "licence": "Copernicus Sentinel data 2021 (free, full and open)",
+  "passes": [
+    {
+      "file": "s1_vv_20210707_baseline.tif",
+      "date": "2021-07-07",
+      "role": "baseline",
+      "scenes": [
+        "S1A_IW_GRDH_1SDV_20210707T020743_20210707T020809_038665_04900F_rtc"
+      ]
+    },
+    {
+      "file": "s1_vv_20210719_baseline.tif",
+      "date": "2021-07-19",
+      "role": "baseline",
+      "scenes": [
+        "S1A_IW_GRDH_1SDV_20210719T020743_20210719T020810_038840_04954E_rtc"
+      ]
+    },
+    {
+      "file": "s1_vv_20210731_baseline.tif",
+      "date": "2021-07-31",
+      "role": "baseline",
+      "scenes": [
+        "S1A_IW_GRDH_1SDV_20210731T020744_20210731T020810_039015_049A80_rtc"
+      ]
+    },
+    {
+      "file": "s1_vv_20210812_baseline.tif",
+      "date": "2021-08-12",
+      "role": "baseline",
+      "scenes": [
+        "S1A_IW_GRDH_1SDV_20210812T020745_20210812T020811_039190_04A03E_rtc"
+      ]
+    },
+    {
+      "file": "s1_vv_20210824_baseline.tif",
+      "date": "2021-08-24",
+      "role": "baseline",
+      "scenes": [
+        "S1A_IW_GRDH_1SDV_20210824T020745_20210824T020812_039365_04A647_rtc"
+      ]
+    },
+    {
+      "file": "s1_vv_20210905_analysis.tif",
+      "date": "2021-09-05",
+      "role": "analysis",
+      "scenes": [
+        "S1A_IW_GRDH_1SDV_20210905T020746_20210905T020812_039540_04AC4D_rtc"
+      ]
+    },
+    {
+      "file": "s1_vv_20210917_analysis.tif",
+      "date": "2021-09-17",
+      "role": "analysis",
+      "scenes": [
+        "S1A_IW_GRDH_1SDV_20210917T020746_20210917T020813_039715_04B247_rtc"
+      ]
+    },
+    {
+      "file": "s1_vv_20210929_analysis.tif",
+      "date": "2021-09-29",
+      "role": "analysis",
+      "scenes": [
+        "S1A_IW_GRDH_1SDV_20210929T020747_20210929T020813_039890_04B84A_rtc"
+      ]
+    },
+    {
+      "file": "s1_vv_20211011_analysis.tif",
+      "date": "2021-10-11",
+      "role": "analysis",
+      "scenes": [
+        "S1A_IW_GRDH_1SDV_20211011T020747_20211011T020813_040065_04BE50_rtc"
+      ]
+    },
+    {
+      "file": "s1_vv_20211023_analysis.tif",
+      "date": "2021-10-23",
+      "role": "analysis",
+      "scenes": [
+        "S1A_IW_GRDH_1SDV_20211023T020747_20211023T020813_040240_04C46A_rtc"
+      ]
+    }
+  ]
+}
