@@ -205,7 +205,13 @@ madar-oman-poc/
 
 ## 10. Team, licence and attribution
 
-**Team T0045 — Madar Oman.** Members and roles: _to be completed by the team before submission._
+**Team T0045 — Madar Oman**
+
+| Member | Role |
+|---|---|
+| Reem Alklbani | Team lead and management |
+| Qais Albadaai | AI programming and operations |
+| Anat Alaisaee | Platform design |
 
 Code: MIT (see `LICENSE`). Contains modified Copernicus Sentinel data 2021, processed by ESA and
 served by the Microsoft Planetary Computer. Copernicus DEM © DLR e.V. 2010–2014 and © Airbus Defence
