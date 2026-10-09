@@ -7,6 +7,8 @@ Madar Oman maps new surface water from Sentinel-1 radar after a storm and publis
 figure, how much "flood" the same method reports on an ordinary day — so a decision-maker knows
 whether the map shows an event or noise.
 
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/qaisalbadaai/madar-oman-poc/blob/main/notebooks/01_flood_shaheen_khaburah.ipynb)
+
 ![New surface water at Al Khaburah after Cyclone Shaheen, and the before/after comparison](results/khaburah_flood_shaheen_2021.png)
 
 *Al Khaburah, 11 October 2021: 0.88 km² of new water against 0.41 km² on an ordinary day.
@@ -87,7 +89,7 @@ No machine-learning model and no random numbers are involved; the result is dete
 Requires Python 3.11.
 
 ```bash
-git clone https://github.com/<your-team>/madar-oman-poc.git
+git clone https://github.com/qaisalbadaai/madar-oman-poc.git
 cd madar-oman-poc
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
@@ -152,6 +154,12 @@ The same method on other areas of the Cyclone Shaheen coast, run in the full pla
 
 These figures are outputs of the full Madar Oman platform, included to show the range of the work.
 They are not produced by the notebook in this repository.
+
+**Flood — Saham wilayat, Cyclone Shaheen.** The same method on a whole wilayat (1,497 km², 40 m
+grid, ascending orbit 57): 1.40 km² of new water on 8 October 2021 against 0.37 km² on an ordinary
+day, with 2.96 km of mapped road and 0.26 km² of built land inside it.
+
+![Saham wilayat: new surface water after Cyclone Shaheen and the before/after comparison](results/platform/flood_saham_shaheen_2021.png)
 
 **Coastal change — Sohar Souk, Al Batinah coast, 2018 → 2025.** Shoreline extracted from Sentinel-2
 year by year and measured on 303 transects at 50 m spacing along 15.1 km. With a detection limit of
