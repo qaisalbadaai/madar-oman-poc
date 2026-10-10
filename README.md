@@ -162,8 +162,9 @@ day, with 2.96 km of mapped road and 0.26 km² of built land inside it.
 ![Saham wilayat: new surface water after Cyclone Shaheen and the before/after comparison](results/platform/flood_saham_shaheen_2021.png)
 
 **Coastal change — Sohar Souk, Al Batinah coast, 2018 → 2025.** Shoreline extracted from Sentinel-2
-year by year and measured on 303 transects at 50 m spacing along 15.1 km. With a detection limit of
-10 m (one pixel): 49 % of transects show no detectable change, 29 % accretion, 22 % erosion; 6.4 ha
+year by year and measured on 303 transects at 50 m spacing along 15.1 km; 262 could be measured.
+With a detection limit of 10 m (one pixel), of the measured transects 49 % show no detectable
+change, 29 % accretion and 22 % erosion; 6.4 ha
 retreated and 10.8 ha advanced. At Saham, where the usable record gives a 45.8 m limit, 97 % show no
 detectable change — the limit is printed with every result so "no change" is never confused with
 "not measurable".
